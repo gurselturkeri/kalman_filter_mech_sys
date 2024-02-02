@@ -3,5 +3,5 @@ I have developed a model for a 1 Degree of Freedom (DOF) mass-damper-spring syst
 <div id="header" align="center">
   <img src="https://github.com/gurselturkeri/kalman_filter_mech_sys/blob/main/img/system_rep.jpg" width="350"/>
  </div>
- ## Create equation of motions:
+## A second-level heading
 
