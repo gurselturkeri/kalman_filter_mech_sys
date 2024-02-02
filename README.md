@@ -5,3 +5,15 @@ I have developed a model for a 1 Degree of Freedom (DOF) mass-damper-spring syst
  </div>
 ## A second-level heading
 
+(Ms^2+K+f_v s)X(s)=F(s)
+Mx ̈+f_v x ̇+Kx=f(t)
+State Variables: x and v
+x ̇=v
+v ̇=x ̈=   1/M[-Kx-f_v x ̇+f(t)]
+x ̇=Ax+Bu
+[■(x ̇@v ̇ )]=[■(0&1@-K/M&-f_V/M)][■(x@v)]+[■(0@1/M)]f(t)
+
+y=Cx+Du
+y=x,        y=[■(1&0)][■(x@v)]
+
+
