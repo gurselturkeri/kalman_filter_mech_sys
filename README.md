@@ -39,8 +39,7 @@ v
 \end{bmatrix}
 f(t)
 \]
-
-6. \( y = Cx + Du \)
+\( y = Cx + Du \)
 
 \[ y = [1\ 0] \begin{bmatrix} x \\ v \end{bmatrix} \]
 
