@@ -6,5 +6,5 @@ I have developed a model for a 1 Degree of Freedom (DOF) mass-damper-spring syst
 
 ### Equation of Motion and State Space Representation
 <div id="header" align="center">
-  <img src="https://github.com/gurselturkeri/kalman_filter_mech_sys/blob/main/img/formula.jpg" width="450"/>
+  <img src="https://github.com/gurselturkeri/kalman_filter_mech_sys/blob/main/img/formula.png" width="450"/>
  </div>
