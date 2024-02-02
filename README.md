@@ -3,18 +3,9 @@ I have developed a model for a 1 Degree of Freedom (DOF) mass-damper-spring syst
 <div id="header" align="center">
   <img src="https://github.com/gurselturkeri/kalman_filter_mech_sys/blob/main/img/system_rep.jpg" width="350"/>
  </div>
-## A second-level heading
-## System Equations
 
-The system can be represented in state-space form as:
 
-\[ \begin{bmatrix} \dot{x} \\ \dot{v} \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -\frac{K}{M} & -\frac{f_v}{M} \end{bmatrix} \begin{bmatrix} x \\ v \end{bmatrix} + \begin{bmatrix} 0 \\ \frac{1}{M} \end{bmatrix} f(t) \]
-
-\[ y = \begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} x \\ v \end{bmatrix} \]
-
-Here:
-- \( A = \begin{bmatrix} 0 & 1 \\ -\frac{K}{M} & -\frac{f_v}{M} \end{bmatrix} \)
-- \( B = \begin{bmatrix} 0 \\ \frac{1}{M} \end{bmatrix} \)
-- \( C = \begin{bmatrix} 1 & 0 \end{bmatrix} \)
-- \( D = 0 \)
-
+ 
+<div align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=%5Cbegin%7Bbmatrix%7D%20%5Cdot%7Bx%7D%20%5C%5C%20%5Cdot%7Bv%7D%20%5Cend%7Bbmatrix%7D%20=%20%5Cbegin%7Bbmatrix%7D%200%20%26%201%20%5C%5C%20-%5Cfrac%7BK%7D%7BM%7D%20%26%20-%5Cfrac%7Bf_v%7D%7BM%7D%20%5Cend%7Bbmatrix%7D%20%5Cbegin%7Bbmatrix%7D%20x%20%5C%5C%20v%20%5Cend%7Bbmatrix%7D%20+%20%5Cbegin%7Bbmatrix%7D%200%20%5C%5C%20%5Cfrac%7B1%7D%7BM%7D%20%5Cend%7Bbmatrix%7D%20f(t)">
+</div>
