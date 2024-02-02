@@ -4,31 +4,45 @@ I have developed a model for a 1 Degree of Freedom (DOF) mass-damper-spring syst
   <img src="https://github.com/gurselturkeri/kalman_filter_mech_sys/blob/main/img/system_rep.jpg" width="350"/>
  </div>
 
-## System Equations
+Certainly! To format the formulas for a GitHub README, you can use Markdown. Here is the edited version of your formulas:
 
-The dynamic system is described by the following equations:
+1. \( (Ms^2 + K + f_v s)X(s) = F(s) \)
 
-\[ (Ms^2 + K + f_v s)X(s) = F(s) \]
-\[ M\ddot{x} + f_v\dot{x} + Kx = f(t) \]
+2. \( Mx'' + f_v \dot{x} + Kx = f(t) \)
 
-### State Variables:
+State Variables: \( x \) and \( v \)
 
-\[ \dot{x} = v \]
-\[ \dot{v} = x\ddot{x} = \frac{1}{M}(-Kx - f_v\dot{x} + f(t)) \]
+3. \( \dot{x} = v \)
 
-### State-Space Representation:
+4. \( \dot{v} = x'' = \frac{1}{M}[-Kx - f_v \dot{x} + f(t)] \)
 
-\[ \begin{bmatrix} \dot{x} \\ \dot{v} \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -\frac{K}{M} & -\frac{f_v}{M} \end{bmatrix} \begin{bmatrix} x \\ v \end{bmatrix} + \begin{bmatrix} 0 \\ \frac{1}{M} \end{bmatrix} f(t) \]
+5. \( \dot{x} = Ax + Bu \)
 
-### Output Equation:
+\[ 
+\begin{bmatrix}
+\dot{x} \\
+\dot{v}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & 1 \\
+-\frac{K}{M} & -\frac{f_v}{M}
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+v
+\end{bmatrix}
++
+\begin{bmatrix}
+0 \\
+\frac{1}{M}
+\end{bmatrix}
+f(t)
+\]
 
-\[ y = Cx + Du \]
-\[ y = x \]
+6. \( y = Cx + Du \)
 
-Here:
-- \( A = \begin{bmatrix} 0 & 1 \\ -\frac{K}{M} & -\frac{f_v}{M} \end{bmatrix} \)
-- \( B = \begin{bmatrix} 0 \\ \frac{1}{M} \end{bmatrix} \)
-- \( C = \begin{bmatrix} 1 & 0 \end{bmatrix} \)
-- \( D = 0 \)
+\[ y = [1\ 0] \begin{bmatrix} x \\ v \end{bmatrix} \]
 
+Feel free to copy and paste these Markdown-formatted equations into your GitHub README.
 
