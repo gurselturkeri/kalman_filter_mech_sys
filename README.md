@@ -19,3 +19,9 @@ I have developed a model for a 1 Degree of Freedom (DOF) mass-damper-spring syst
   <img src="https://github.com/gurselturkeri/kalman_filter_mech_sys/blob/main/img/with_kalman.png" width="650"/>
  </div>
 
+
+ ### Result of Filter
+ <div id="header" align="center">
+  <img src="https://github.com/gurselturkeri/kalman_filter_mech_sys/blob/main/img/untitled.jpg" width="650"/>
+ </div>
+
