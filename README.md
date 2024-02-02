@@ -8,3 +8,9 @@ I have developed a model for a 1 Degree of Freedom (DOF) mass-damper-spring syst
 <div id="header" align="center">
   <img src="https://github.com/gurselturkeri/kalman_filter_mech_sys/blob/main/img/formula.png" width="450"/>
  </div>
+
+ ## Simulink Modeling
+ <div id="header" align="center">
+  <img src="https://github.com/gurselturkeri/kalman_filter_mech_sys/blob/main/img/damper_mass_models.png" width="450"/>
+ </div>
+
